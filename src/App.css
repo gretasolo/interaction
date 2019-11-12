@@ -1,22 +1,81 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.all {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-basis: 24cm;
+}
+#firstbutton {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:.3em;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 1s;
+  background-color: gray;
+ 
 }
 
-.App-link {
-  color: #09d3ac;
+#firstbutton:hover {
+  color: gray;
+  background-color: turquoise;
+}
+
+#secondbutton {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:.3em;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 1s;
+  background-color: gray;
+}
+
+#secondbutton:hover {
+  color:gray;
+  background-color: turquoise;
+}
+
+#thirdbutton {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:.3em;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 1s;
+  background-color: gray;
+}
+
+#thirdbutton:hover {
+  color:gray;
+  background-color: turquoise;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
